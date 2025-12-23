@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies
+  build:
+    commands:
+      - echo Build completed (Docker build happens in EC2)
+artifacts:
+  files:
+    - '**/*'
